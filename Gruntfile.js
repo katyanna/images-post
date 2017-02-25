@@ -14,20 +14,12 @@ module.exports = function(grunt) {
         options: {
           engine: 'im',
           sizes: [{
-            /*
-            Change these:
-            
-            width: ,
-            suffix: ,
-            quality:
-            */
+            width: 1600,
+            suffix: 'large_2x',
+            quality: 30
           }]
         },
 
-        /*
-        You don't need to change this part if you don't change
-        the directory structure.
-        */
         files: [{
           expand: true,
           src: ['*.{gif,jpg,png}'],
@@ -64,7 +56,7 @@ module.exports = function(grunt) {
       },
     },
   });
-  
+
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
