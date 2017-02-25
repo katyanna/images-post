@@ -1,12 +1,31 @@
 body {
+  font-family: sans-serif;
+  margin: 2em;
 }
 
 article {
-  width: 50em;
+  margin: 0 auto;
+  max-width: 50em;
+  border-bottom: 1px solid #ddd;
+}
+
+figcaption {
+  font-size: 0.8em;
+  color: #5E637E;
+}
+
+figure {
+  margin: 1em 0;
+}
+
+header {
+  margin: 0 auto;
+  width: 800px;
 }
 
 h1 {
-
+  margin: 0 auto;
+  width: 800px;
 }
 
 img {
