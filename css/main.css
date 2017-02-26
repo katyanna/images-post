@@ -9,7 +9,7 @@
   width: 2.5em;
 }
 
-a:hover [class*="zocial-"]:before {
+a:hover {
   color: #3d85c6;
 }
 
@@ -18,14 +18,16 @@ a:hover [class*="zocial-"]:before {
 }
 
 body {
-  font-family: sans-serif;
-  margin: 2em;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  margin: 3vh 0 3vh 0;
 }
 
 article {
   margin: 0 auto;
   max-width: 50em;
   border-bottom: 1px solid #ddd;
+  line-height: 1.5em;
 }
 
 figcaption {
@@ -38,14 +40,21 @@ figure {
 }
 
 h1 {
-  margin: 0 auto;
+  margin: 1em auto;
   width: 800px;
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 500;
 }
 
 img {
   max-width: 100%;
 }
+
 footer {
-  margin: 0 auto;
   width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
